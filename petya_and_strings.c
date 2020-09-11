@@ -3,7 +3,8 @@
 
 int main()
 {
-	char a[100], b[100], x;
+	char a[100], b[100];
+	int x;
 	scanf("%s %s", &a, &b);
 	x = strcasecmp(a, b);
 	if (x == 0)
